@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Search on FB</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="edit_message">Search</string>
+    <string name="button_search">search</string>
+    <string name="button_clear">clear</string>
+    <string name="facebook_app_id">397179700659455</string>
+    <string name="nofav">No Favourites</string>
+</resources>

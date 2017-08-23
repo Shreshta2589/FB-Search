@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/imageView"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/favorites_off"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/tx_name"
+        android:layout_marginStart="21dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14dp"
+        app:srcCompat="@drawable/details" />
+
+</RelativeLayout>
+
+<!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentBottom="true"-->
